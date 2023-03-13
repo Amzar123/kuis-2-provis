@@ -4,7 +4,7 @@ A new Flutter project.
 
 # Kelompok 6
 - Hanifah Al Humaira (hanifah200201@upi.edu) 
-- Aji Muhammad Zapar (aji.muhammad.zapar080500@gmail.com)
+- Aji Muhammad Zapar (aji.muhammad@upi.edu)
 
 ## Getting Started
 
