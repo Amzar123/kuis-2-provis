@@ -1,4 +1,4 @@
-# kuis2provis Nomor 1
+# kuis2provis Nomor 1 & 2
 
 A new Flutter project.
 
