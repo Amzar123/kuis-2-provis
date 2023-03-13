@@ -55,14 +55,14 @@ class MyAppState extends State<MyApp> {
                           Column(
                             children: [
                               const Padding(
-                                padding: EdgeInsets.all(20),
+                                padding: EdgeInsets.all(40),
                                 child: Text(
                                   'Mobil Saya',
-                                  style: TextStyle(color: Colors.orange),
+                                  style: TextStyle(color: Colors.red),
                                 ),
                               ),
                               Padding(
-                                padding: const EdgeInsets.all(20),
+                                padding: const EdgeInsets.all(5),
                                 child: Image.network(
                                   'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
                                   height: 150,
