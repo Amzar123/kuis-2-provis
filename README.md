@@ -2,6 +2,9 @@
 
 A new Flutter project.
 
+# Kelompok 6
+Hanifah Al Humaira (hanifah200201@gmail.com) ; Aji Muhammad Zapar (aji.muhammad.zapar080500@gmail.com)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -15,5 +18,3 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# Kelompok 6
-Hanifah Al Humaira & Aji Muhammad Zapar
