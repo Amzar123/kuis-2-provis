@@ -41,13 +41,16 @@ class MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
+                alignment: Alignment.center,
+                width: 605,
                 child: Column(
                   children: [
                     Expanded(
                         child: Container(
-                      decoration: BoxDecoration(border: Border.all()),
+                      // decoration: BoxDecoration(border: Border.all()),
                       padding: const EdgeInsets.all(14),
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Column(
                             children: [
@@ -116,7 +119,8 @@ class MyAppState extends State<MyApp> {
                       ),
                     )),
                     Container(
-                        decoration: BoxDecoration(border: Border.all()),
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.grey, width: 2)),
                         padding: const EdgeInsets.all(14),
                         child: Column(
                           children: [
