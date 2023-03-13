@@ -13,10 +13,10 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
-  String pilihanSalam = 'Brio';
+  String pilihanMobil = 'Brio';
   @override
   Widget build(BuildContext context) {
-    List<DropdownMenuItem<String>> salam = [];
+    List<DropdownMenuItem<String>> listMobil = [];
     var itm1 = const DropdownMenuItem<String>(
       value: "Brio",
       child: Text("Brio"),
@@ -25,8 +25,8 @@ class MyAppState extends State<MyApp> {
       value: "Civic",
       child: Text("Civic"),
     );
-    salam.add(itm1);
-    salam.add(itm2);
+    listMobil.add(itm1);
+    listMobil.add(itm2);
 
     return MaterialApp(
       title: 'Hello App',
@@ -82,12 +82,12 @@ class MyAppState extends State<MyApp> {
                               Padding(
                                 padding: const EdgeInsets.all(20),
                                 child: DropdownButton(
-                                    value: pilihanSalam,
-                                    items: salam,
+                                    value: pilihanMobil,
+                                    items: listMobil,
                                     onChanged: (String? newValue) {
                                       setState(() {
                                         if (newValue != null) {
-                                          pilihanSalam = newValue;
+                                          pilihanMobil = newValue;
                                         }
                                       });
                                     }),
@@ -95,7 +95,7 @@ class MyAppState extends State<MyApp> {
                               Padding(
                                 padding: const EdgeInsets.all(20),
                                 child: Text(
-                                  pilihanSalam,
+                                  pilihanMobil,
                                   style: const TextStyle(
                                       fontWeight: FontWeight.w900),
                                   textAlign: TextAlign.left,
