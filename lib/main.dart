@@ -176,7 +176,7 @@ class ButtonNamaKelompok extends StatelessWidget {
           context: context,
           builder: (BuildContext context) => AlertDialog(
             title: const Text('Kelompok 6'),
-            content: const Text('Hanifah Al Humaira (hanifah200201@upi.edu) ; Aji Muhammad Zapar (aji.muhammad.zapar080500@gmail.com)'),
+            content: const Text('Hanifah Al Humaira (hanifah200201@upi.edu) ; Aji Muhammad Zapar (aji.muhammad@upi.edu)'),
             actions: <Widget>[
               TextButton(
                 onPressed: () => Navigator.pop(context, 'OK'),
